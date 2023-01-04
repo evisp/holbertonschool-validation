@@ -2,7 +2,7 @@ clean:
 	rm -rf ./dist/
 
 build:
-	hugo
+	hugo > /dev/null 2>&1
 
 post:
 	hugo new posts/$(POST_NAME).md
