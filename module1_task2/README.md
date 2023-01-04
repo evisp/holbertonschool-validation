@@ -3,5 +3,7 @@
    - go
    
 ## Lifecycle
-   - step 1
-   - step 2
+   - build
+   - clean
+   - post
+   - help
